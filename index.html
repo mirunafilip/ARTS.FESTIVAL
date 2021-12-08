@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    
+    <title>Arts Festival</title>
+  </head>
+  <body>
+
+
+    <!-- 1.navbar-collapse -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container p-2">
+
+        <a href="#" class="navbar-brand">Arts Festival</a>
+
+
+        <button
+          class="navbar-toggler"
+          target="collapse"
+          type="button"
+          data-bs-target="#navmenu"
+          data-bs-toggle="collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-element text-center">
+              <a href="#about" class="nav-link px-5">About</a>
+            </li>
+            <li class="nav-element text-center">
+              <a href="#ticket" class="nav-link px-5">Tickets</a>
+            </li>
+            <li class="nav-element text-center">
+              <a href="#contact" class="nav-link px-5">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- 2. showcase carusel -->
+    <header id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots-jos -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="4"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="
+              container
+              h-100
+              text-light
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+            "
+          >
+            <h1 class="p-2">Arts Festival</h1>
+            <p class="lead">4-10 July 2021</p>      
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="
+              container
+              h-100
+              text-light
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+            "
+          >
+            <h1 class="text-lg">Dance</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="
+              container
+              h-100
+              text-light
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+            "
+          >
+            <h1>Music</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="
+              container
+              h-100
+              text-light
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+            "
+          >
+            <h1>Art</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="
+              container
+              h-100
+              text-light
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+            "
+          >
+            <h1>Culture</h1>
+          </div>
+        </div>
+      </header>
+
+      <!-- Left and right controls/icons-laterale-->
+    </section>
+
+    <!-- 3.section info -->
+    <section class="text-center bg-light " id="about">
+      <h2 class="pt-4">Take A Look</h2>
+      <div class="container border-bottom border-dark py-5">
+        <div class="row">
+          <div class="col-md">
+            <div class="img-info"></div>
+      </div>
+      <div class="col-md">
+        <div class="info-text p-5">
+          <h3 ck>About Us</h3>
+          <p class="lead text-start">Arts Festival is a 7-day event with representations from every type of art: music, dance, art, ballet, even cultural representation through art.</p>
+         <p class="text-start d-none d-lg-block">
+          We love people that are expressing their passion through an experience given to the public. Each year, more than 300 000 participants are feeling at home, embracing others that feel at home
+         </p>
+          <a class="btn btn-dark w-25 " href="#">Read</a>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- 4.section- cards -->
+    <section class="g-5 py-4 bg-light d-flex justify-content-center align-items-center" id="ticket">
+      <div class="container">
+        <h2 class="text-center py-4">Tickets</h2>
+        
+        <!-- row1 -->
+        <div class="row p-lg-5 p-sm-0">
+          <div class="col-md">
+            <div class="card bg-light p-2">
+              <img src="./img/misc (7).jpg" class="img-fluid" alt="">
+              <h3 class="card-title p-2"> One day ticket</h3>
+              <p class="card-text text-secondary">
+                You can access both venues for one day. With this ticket, you can see your favorite artists. 
+              </p>
+              <a class="btn btn-dark w-25" href="https://www.tickets.com/">Buy</a>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card p-2">
+              <img src="./img/performance1.jpg" alt="" class="img-fluid">
+                <h3 class="card-title p-2">General Acces</h3>
+                <p class="card-text text-secondary">
+                  If you want to be able to enjoy all the fun, this ticket allows you to access all the venues, for the whole 7 days.
+                </p>
+                <a class="btn btn-dark w-25" href="https://www.tickets.com/">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- row2 -->
+          <div class="row p-lg-5 p-sm-0">
+            <div class="col-md">
+              <div class="card p-2">
+               <img src="./img/performance1.jpg" alt="" class="img-fluid">
+                <h3 class="card-title p-2">Unirii Square Acces</h3>
+                <p class="card-text text-secondary">
+                  You don't want to miss the city fun? This ticket allows you to see all the concerts located in Unirii Square.
+                </p>
+                <a class="btn btn-dark w-25" href="https://www.tickets.com/">Buy</a>
+              </div>
+            </div>
+
+            <div class="col-md">
+              <div class="card p-2">
+                <img src="./img/performance.jpg" alt="" class="img-fluid">
+                <h3 class="card-title p-2"> Sălicea Venue Acces</h3>
+                <p class="card-text text-secondary">
+                  If you are a fan of the countryside you can access the event happening in Sălicea, a village near Cluj-Napoca.
+                </p>
+                <a class="btn btn-dark w-25" href="https://www.tickets.com/">Buy</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 5.footer -->
+    <footer class="bg-dark text-light text-center text-lg-start" id="contact">
+      <div class="container p-4">
+        <div class="row">
+          <!-- col1 -->
+          <div class="col-lg-9 ">
+            <h5 class="d-inline d-none d-lg-block">Arts Festival</h5>
+            <p class="small w-50 py-4 d-none d-lg-block  ">
+              Event organized by the Above Clouds Foundation, sponsored by Spotify, Delissima, Gloria's Jeans, Audi, Little Einsteins, many more.
+
+            </p>
+          </div>
+
+          <!-- col2 -->
+          <div class="col-lg-3">
+            <h5 class="text-center">CONTACT</h5>
+            <ul class="list-group list-group-flush text-center">
+              <li class="list-group-item bg-dark text-light small">Email: office.arts_festival@gmail.com</li>
+              <li class="list-group-item bg-dark text-light small">Adress: 40 Emil Racovita</li>
+              <li class="list-group-item bg-dark text-light small">Phone: 0230342861</li>
+            </ul>
+          </div>
+        </div>
+      </div>  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright, Arts Festival
+      <!-- Copyright -->
+    </footer>
+
+    <!-- js bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+
+
